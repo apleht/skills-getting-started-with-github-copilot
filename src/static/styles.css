@@ -74,6 +74,85 @@ section h3 {
   margin-bottom: 8px;
 }
 
+.participants-section {
+  margin-top: 14px;
+  padding-top: 12px;
+  border-top: 1px solid #d9e1e5;
+}
+
+.participants-heading {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 8px;
+  color: #334b52;
+  font-size: 0.95rem;
+}
+
+.participants-count {
+  display: inline-flex;
+  min-width: 22px;
+  height: 22px;
+  align-items: center;
+  justify-content: center;
+  padding: 0 6px;
+  border-radius: 11px;
+  background-color: #e0f2f1;
+  color: #00695c;
+  font-size: 0.75rem;
+}
+
+.participants-list {
+  padding-left: 0;
+  list-style: none;
+  color: #4d5b60;
+  font-size: 0.9rem;
+}
+
+.participants-list li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  margin-bottom: 4px;
+  overflow-wrap: anywhere;
+}
+
+.participants-list.is-empty li {
+  display: block;
+}
+
+.remove-participant-button {
+  flex: 0 0 28px;
+  width: 28px;
+  height: 28px;
+  padding: 0;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  background: transparent;
+  color: #64757a;
+  font-size: 1.2rem;
+  line-height: 1;
+}
+
+.remove-participant-button:hover {
+  border-color: #ef9a9a;
+  background-color: #ffebee;
+  color: #c62828;
+}
+
+.remove-participant-button:focus-visible {
+  outline: 2px solid #00897b;
+  outline-offset: 2px;
+}
+
+.participants-list.is-empty {
+  padding-left: 0;
+  list-style: none;
+  color: #748187;
+  font-style: italic;
+}
+
 .form-group {
   margin-bottom: 15px;
 }
